@@ -1,0 +1,32 @@
+.container{
+    margin: 200px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 50px;
+    
+}
+.container img{
+    width: 200px;
+}
+.contentContainer{
+    width: 55%;
+    text-align: left;
+}
+.contentContainer h3{
+    font-size: x-large;
+    font-weight: bolder;
+    color: #52afc9;
+}
+.contentContainer p{
+    font-weight: bolder;
+}
+.contentContainer a{
+    background-color: #52afc9;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 7px;
+    border-radius: 5px;
+}

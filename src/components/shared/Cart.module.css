@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    width: 130vh;
+    margin: 0 0 25px;
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    margin-right: 0px;
+}
+.title{
+    text-align: left;
+    font-weight: lighter;
+    border-left: 1px solid silver;
+    padding-left: 15px;
+    margin-right: 0px;
+}
+.quantity{
+    background-color: #52afc1;
+    padding: 3px 7px;
+    color: #fff;
+    border-radius: 5px;
+    
+    
+}
+.quantityContainer{
+    border-left: 1px solid silver;
+    padding: 35px;
+    margin-right: 10px;
+}
+.buttonContainer{
+    border-left: 1px solid silver;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+}
+.buttonContainer button{
+    background-color: #52afc9;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px 7px;
+    border: none;
+}

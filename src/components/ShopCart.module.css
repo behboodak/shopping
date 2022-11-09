@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 100px;
+}
+.finalState{
+    text-align: left;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 20px;
+    height: 23vh;
+    width: 230px;
+}
+.finalState p{
+    font-weight: bolder;
+}
+.buttonContainer{
+    border-top: 1px solid silver;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonContainer button{
+    background-color: #52afc9;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px 7px;
+    border: none;
+}
